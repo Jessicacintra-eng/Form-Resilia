@@ -60,9 +60,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     padding: 0 50px;
-    font-weight: 500;
+
+    font-weight: 600;
+    font-size: large;
 
 }
 
@@ -170,8 +172,8 @@ main {
 
 form {
     margin: auto;
-    width: 350px;
-    height: 450px;
+    width: fit-content;
+    height: fit-content;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -244,7 +246,7 @@ footer {
     flex-wrap: wrap;
     position: absolute;
     bottom: 0;
-    color: transparent;
+    color: rgba(170, 170, 170, 0.726);
     width: 100%;
     height: 45px;
     text-align: center;
@@ -257,8 +259,6 @@ footer {
 
 h4::after {
     content: "©";
-<<<<<<< HEAD:Style.css
-    color: tomato;
 }
 
 @media (max-width:1025px) {
@@ -510,17 +510,32 @@ h4::after {
     }
 
 }
-@media (max-width:375px) {
+@media (max-width:376px) {
     .right{
-        margin: 0;
-        align-self: flex-start;
-        justify-self: center;
+        margin: 0.4cm 0.2cm;
     }
     .textos{
         font-size: small;
     }
+    .left{
+        padding:0.1cm 0.2cm ;
+    }
 }
-=======
-    color: black;
+@media (max-width:320px){
+    form{
+        width: 300px;
+        margin: 0.5cm 0;
+        padding: 0cm;
+    }
+    .right{
+        margin: 0 0.2cm;
+    }
+    .left{
+        background-image: none;
+        padding:0.1cm 0.2cm ;
+    }
+    .left .redes{
+        padding:0;
+    }
+
 }
->>>>>>> 53b4de5ef5f29e8da21419bd8d8f5d626b0c4bb8:style.css
